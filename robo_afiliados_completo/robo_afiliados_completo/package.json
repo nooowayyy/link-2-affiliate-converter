@@ -1,0 +1,16 @@
+{
+  "name": "robo-afiliados-completo",
+  "version": "1.0.0",
+  "description": "Sistema completo de automação de afiliados para WhatsApp",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "axios": "^1.6.8",
+    "nedb-promises": "^6.2.1",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.23.0"
+  }
+}
